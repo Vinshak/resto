@@ -1,0 +1,47 @@
+.btn{
+    width:150px;
+    font-size:20px;
+     background:rgb(2, 2, 82);
+     color:wheat;
+     display: inline-block;
+     border: none;
+     text-decoration: none;
+}
+.btn:hover{
+    background-color: #2ca005;
+ }
+ .sub-heading{
+    text-align: center;
+    color: green;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+.heading{
+    text-align: center;
+    color:black;
+    font-size: 1,5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+    gap: 1.5 rem;
+    
+}
+.menu .box-container .box{
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .3rem solid rgba(0,0,0,.2);
+    
+    text-align: center;
+
+}
+.menu .box-container .box span{
+    color: #2ca005;
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}

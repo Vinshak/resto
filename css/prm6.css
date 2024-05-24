@@ -1,0 +1,103 @@
+.sub-heading{
+    text-align: center;
+    color: green;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+.heading{
+    text-align: center;
+    color:black;
+    font-size: 1,5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+h3{
+    color: red;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .one{
+    background-color: rgb(182, 177, 177);
+    
+}
+.btn{
+    width:200px;
+    font-size:35px;
+     background:rgb(2, 2, 82);
+     color:wheat;
+     display: inline-block;
+     border: none;
+     text-decoration: none;
+}
+.btn:hover{
+    background-color: #2ca005;
+ }
+ .order form{
+    width: 75rem;
+    border-radius: .3rem;
+    box-shadow: var(--box-shadow);
+    border: .5rem solid rgba(0,0,0,.2);
+    background-color: #fff;
+    padding: 1.5rem;
+    
+  }
+ .order form .input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+    
+    .order form .input-box .input{
+        width: 50%;
+    }
+    .order form .input-box .input input,
+    .order form .input-box .input textarea{
+        background-color: rgb(227, 227, 227);
+        border-radius: .1rem;
+        padding: 1rem;
+        font-size: .9rem;
+        color:black;
+        text-transform: none;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+    .order form .input-box .input textarea{
+        height: 20rem;
+        resize: none;
+    }
+    .footer .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+        padding-left: 30px;
+        
+    }
+    .footer .box-container .box{
+        padding: 5rem 0;
+        font-size:1.5rem;
+        color: black;
+    }
+    .footer .box-container .box a{
+        text-decoration: none;
+        color: rgb(0, 0, 90);
+    }
+    
+
+    h2{
+        color:#2ca005;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+.footer .credit{
+    text-align: center;
+    border-top: .5rem solid rgba(0,0,0,.1);
+    font-size: 1.5rem;
+    color: black;
+    padding:2rem;
+    padding-top: .1.5rem;
+    margin-top: 1.5rem;
+}
+.footer .credit span{
+    color: #2ca005;
+}
